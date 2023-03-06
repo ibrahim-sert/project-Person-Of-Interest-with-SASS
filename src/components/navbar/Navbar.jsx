@@ -19,7 +19,7 @@ const Navbar = () => {
         to="/projects"
         style={({ isActive }) => ({ color: isActive && "red" })}
       >
-        My Projectcs
+        My Projects
       </NavLink>
       <NavLink className="nav-link"
         to="/contact"

@@ -10,7 +10,7 @@ const About = () => {
         
         <h2>BIO</h2>
         <p>
-          Wednesday Addams is a fictional character from the Addams Family
+         Samaritan Machine is a fictional character from the Addams Family
           multimedia franchise created by American cartoonist Charles Addams.
           She is typically portrayed as a morbid and emotionally reserved child
           that is fascinated by the macabre, often identified by her pale skin
@@ -27,7 +27,7 @@ const About = () => {
         <div className="about__container">
           <div className="about__job">
             <h2 className="text-secondary">2020 - 2021</h2>
-            <h3>CLARUSWAY</h3>
+            <h3>APPLE</h3>
             <h6>Instructor & Full Stack Developer</h6>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
