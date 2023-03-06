@@ -1,0 +1,130 @@
+//**********************
+//* FOOTER
+
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.link-style {
+  a {
+    padding: 0.4rem;
+    @include transition(1s);
+    color: white;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+.copyright {
+  color: white;
+}
+
+footer.horizontal {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+
+  @extend .link-style;
+}
+
+footer.vertical {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem;
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    @extend .link-style;
+  }
+
+  .copyright {
+    position: fixed;
+    color: white;
+    bottom: 1rem;
+    right: 3rem;
+    transform: rotate(90deg) translate(-3rem, -5rem);
+  }
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  @extend .link-style;
+}//**********************
+//* FOOTER
+
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.link-style {
+  a {
+    padding: 0.4rem;
+    @include transition(1s);
+    color: white;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+.copyright {
+  color: white;
+}
+
+footer.horizontal {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+
+  @extend .link-style;
+}
+
+footer.vertical {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem;
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 1rem;
+    @extend .link-style;
+  }
+
+  .copyright {
+    position: fixed;
+    color: white;
+    bottom: 1rem;
+    right: 3rem;
+    transform: rotate(90deg) translate(-3rem, -5rem);
+  }
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  @extend .link-style;
+}

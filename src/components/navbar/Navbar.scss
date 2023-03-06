@@ -1,0 +1,18 @@
+@import "../../scss/variables";
+
+nav {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: $font-family;
+     text-align: right;
+     padding: 1rem;
+     
+     .nav-link{
+        color:#19A7AA;
+     }
+     a{
+      padding: 1rem;
+      text-decoration: none;
+     }
+  }

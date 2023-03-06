@@ -1,0 +1,36 @@
+@import "../../scss/variables";
+
+.container{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+.Buton_home{
+padding: 1rem;
+background-color: #455C80;
+font-size: 1rem;
+margin: 1rem;
+border:none;
+color:white;
+border-radius: 1rem;
+&:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+}
+}
+.Buton_back{
+padding: 1rem;
+background-color:#19A7AA;
+color: white;
+font-size: 1rem;
+border:none;
+border-radius: 1rem;
+
+&:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+}
+};
+}

@@ -1,0 +1,27 @@
+@import "../../scss/variables";
+ @import "../../scss/mixins";
+
+
+.home{
+    // border: 2px solid red;
+    height: 74.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   color: $text-color;
+
+
+    &__name{
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #fff;
+        &--last{
+            color: red;
+            font-weight: 700;
+        }
+        
+    }
+    
+}

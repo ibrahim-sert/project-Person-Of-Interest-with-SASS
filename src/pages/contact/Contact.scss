@@ -1,0 +1,35 @@
+//**********************
+//* CONTACT
+
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+
+
+.contact {
+  height:64vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    gap: 2.5rem 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-secondary {
+    color: $secondary-color;
+  }
+}
